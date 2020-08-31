@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSN-Search</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/4835277f4b.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container" class="view-initial">
+        <div id="banner-bkgrd">
+            <div id="banner-overlay" class="expand-vertical">
+                <header id="search-container" class="flex-column flex-center">
+                    <div id="search-heading">
+                        <h1>CSN-Search</h1>
+                    </div>
+                    <form id="search-form" class="flex-inline">
+                        <input id="search-input" type="text" autocomplete="off" tabindex="1" autocapitalize="off"
+                            autocorrect="off" name="search-query" placeholder="I'm feeling good!" />
+                        <input id="search-clear" class "" type="button" tabindex="3" value="×">
+                        <input id="search-btn" type="submit" tabindex="2" class="fad fa-file-search" value="&#xf002;"
+                            title="Search" />
+                    </form>
+                </header>
+
+            </div>
+            <!--/banner-overlay-->
+        </div>
+        <!--/banner-->
+
+        <main id="results">
+
+            <div id="cards">
+
+            </div>
+            <div id="pager ">
+                <ul id="pagination" class="pagination justify-content-center"></ul>
+            </div>
+        </main>
+        <!--/results-->
+    </div>
+    <!--/container-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="main.js"></script>
+    <script src="collapse.js" async=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"
+        integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA=="
+        crossorigin="anonymous"></script>
+    <!-- <script src="pagination.js"></script> -->
+
+</body>
+
+</html>

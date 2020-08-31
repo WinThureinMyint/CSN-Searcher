@@ -1,0 +1,41 @@
+{
+    "name": "CSN-Search",
+    "version": "1.0.0",
+    "description": "COVID19 Scholarly-article Network (CSN) Searcher",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "browser_action":{
+        "default_title":"CSN-Search",
+        "default_popup":"popup.html"
+    }
+}
+// "matches": [
+//     "https://*.52.200.38.94/*"
+// ],
+// "exclude_matches": [
+//     "https://*. youtube.com/watch*"
+// ],"https://52.200.38.94/"

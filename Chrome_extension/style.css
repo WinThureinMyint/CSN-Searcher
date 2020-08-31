@@ -1,0 +1,49 @@
+body {
+    width: 400px;
+    height: auto;
+    max-height: 400px;
+}
+
+textarea {
+    width: 400px;
+    height: auto;
+    resize: none;
+}
+
+#element {
+    border-left: 5px solid #4fc3f7;
+    background-color: #e6ffff;
+    padding: 2px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+dt a,#sec_tit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
