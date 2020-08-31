@@ -14,7 +14,7 @@ It will show the search results of selected text on the web page. The selected t
 
 It's the **responsive** search page for CSN-Search. It will show the max 100 resutls with pagination. The results will contains urls, title and body text. The body text can be expended.
 
-## Libraries
+### Libraries
 - bootstrap 4.5.2
 - popper 1.16.1
 - fontawesome
