@@ -1,4 +1,4 @@
-# CSN-Seacher
+# CSN-Searcher
  Front-end side Chrome Extension and Webpage for Scholarly Article Network (CSN) searcher.
 
 ## What is CSN-search?
